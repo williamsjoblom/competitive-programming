@@ -1,9 +1,9 @@
+// William Sjöblom
 #include <cstdio>
 #include <utility>
 #include <set>
 
 int start_x, start_y;
-// William Sjöblom
 int w, h;
 char map[50][50];
 bool visited[50][50];
@@ -55,7 +55,7 @@ inline bool senses_draft(int x, int y) {
 
 
 /**
- * 
+ * Solve.
  */
 int solve(int x, int y) {
     if (x < 0 || y < 0 || x >= w || y >= h) return 0;
