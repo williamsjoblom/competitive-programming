@@ -1,3 +1,6 @@
+// William Sjöblom
+// Nasty brute force approach but does the job.
+// Very much possible to eliminate recursion branches.
 #include <cstdio>
 #include <cmath>
 #include <vector>
